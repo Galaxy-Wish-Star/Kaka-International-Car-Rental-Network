@@ -1,0 +1,234 @@
+/*租车服务部分*/
+.rent-car{
+    width: 900px;
+    display: flex;
+    height: 96px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.differt-rent{
+    width: 280px;
+    height: 96px;
+    position: relative;
+    margin: 0 10px;
+}
+
+/*下面背景盒子*/
+.rent-box{
+    position: absolute;
+    width: 280px;
+    height: 96px;
+    background: #202020;
+    /*skewX()函数是一个内置函数，用于在2D平面中的水平方向上变换元素。*/
+    transform: skewX(-20deg);
+    overflow: hidden;
+}
+
+.rent-words{
+    position: absolute;
+    width: 280px;
+    height: 96px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.difr-top{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.difr-top span{
+    display: inline-block;
+    width: 36px;
+    border-radius: 50%;
+    background-color: rgb(107,153,180);
+    line-height: 36px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.differt-bottom{
+    margin: 0 auto;
+}
+
+.difr-top span:hover{
+    transform: rotate(180deg);
+}
+
+/*热门车型*/
+.hot-car{
+    height: 686px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.hot-title span{
+    font-size: 20px;
+    flex-wrap: 600;
+    transition: all 1s;
+    margin-right: 10px;
+}
+
+.hot-title span:first-child{
+    display: inline-block;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.hot-title span:first-child:hover{
+    /*L*/
+    transform: rotatez(180deg);
+}
+
+.hot-content{
+    height: 610px;
+}
+
+.hot-content ul{
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hot-content ul li{
+    width: 220px;
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.hot-content li .img{
+    height: 142px;
+    width: 220px;
+    overflow: hidden;
+}
+
+.hot-content li img{
+    width: 220px;
+}
+
+li .icon-words{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hot-title{
+    font-family: "SourceHanSansCN-Bold";
+    font-size: 20px;
+    color:#646464;
+    font-weight: 500;
+}
+
+.difcar-btn{
+    display: inline-block;
+    width: 180px;
+    border-radius: 5px;
+    color:#ffffff;
+    font-size: 20px;
+    text-align:center;
+    line-height: 38px;
+}
+
+.car-type{
+    color:#6b6b6b;
+    letter-spacing: 1px;
+    font-family: "SourceHanSansCN-Medium";
+    font-size: 18px;
+}
+
+.space{
+    color:#cb9e4c;
+}
+
+/* 盒子阴影大小 */
+.box{
+    box-shadow: -2px 7px 10px 0px rgba(98, 98,  98, 0.11);
+    transition: all 0.5s;
+}
+.box:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+
+}
+.button{
+    background-color: #ffa42c;
+
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #c57b19;
+}
+
+/* v2.0 | 20110126
+  http://meyerweb.com/eric/tools/css/reset/ 
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #333;
+}
