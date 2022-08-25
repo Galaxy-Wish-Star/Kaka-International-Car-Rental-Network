@@ -1,74 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>卡卡租车</title>
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/public.css" />
-    <link rel="stylesheet" href="../css/index.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="../css/intercar.css">
+</head>
+
+<body>
     <!-- ----------------head模块---------------- -->
     <div class="header">
-      <div class="h-words contain">
-        <div class="h-logo">
-          <a href="../www/index.html"></a>
+        <div class="h-words contain">
+            <div class="h-logo">
+                <a href="../www/index.html"></a>
+            </div>
+            <ul class="h-title">
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="../www/intercar.html">国际租车</a></li>
+                <li><a href="../www/carFlash.html">闪租</a></li>
+                <li><a href="../www/carService.html">服务项目</a></li>
+                <li><a href="../www/about.html">关于我们</a></li>
+            </ul>
+            <div class="h-login">
+                <div class="login">登录 / 注册</div>
+                <div class="login-phon">
+                    <i class="fa fa-phone"></i>
+                    <span class="h-pnum">400-088-800</span>
+                </div>
+            </div>
         </div>
-        <ul class="h-title">
-          <li><a href="./index.html">首页</a></li>
-          <li><a href="../www/intercar.html">国际租车</a></li>
-          <li><a href="../www/carFlash.html">闪租</a></li>
-          <li><a href="../www/carService.html">服务项目</a></li>
-          <li><a href="../www/about.html">关于我们</a></li>
-        </ul>
-        <div class="h-login">
-          <div class="login">登录 / 注册</div>
-          <div class="login-phon">
-            <i class="fa fa-phone"></i>
-            <span class="h-pnum">400-088-800</span>
-          </div>
+    </div>
+    <!-- banner模块 -->
+    <div class="banner">
+        <img src="../images/banner.png" alt="卡卡组合，国际租车">
+    </div>
+    <!-- 取还时间 -->
+<div class="time">
+    <div class="t-data contain">
+        <!-- 取车的地点 -->
+        <div class="td-position">
+            <div class="p-pick-car">
+                <div class="pick-car">取车</div>
+                <select name="city" onchange="move()">
+                <!--根据id获取value，onchange (触发函数move（修改二
+级select的text值实现联动-->
+<option celected value="city">租车的城市 </option>
+<!-- 默认选中，动态生成option -->
+<option value="成都">成都</option>
+
+
+
+                </select><select  id="county">
+                    
+                    <option selected>-- 租车地点 --</option>
+                    <!--默认选中，动态生成option -->
+
+                </select>
+               
+            </div>
+                <div class="p-pick-car">
+                    <div class="pick-car">换车</div>
+                    <select id="city" onchange="move()">
+                        <!-- 根据id获取value，onchange (触发函数move ()修改二
+                        级的text值实现联动 -->
+                        <option selected value="成都">成都</option></select>
+                        <select id="county">
+                            <option selected>--租车地点--</option>
+                            <!--默认选中，动态生成option -->
+
+                        
+                    </select>
+                </div>
+
         </div>
-      </div>
+<!-- 取车的时间 -->
+<div class="td-time">
+    <div class="td-time-pick">
+        <div class="rd-time-car">取车时间</div>
+        <input type="date" class="inputdate">
+        <select id="clock">
+            <option value="9">09:00</option>
+            <option value="10">10:00</option>
+        </select>
+    </div>
+    <div class="td-time-back">
+        <div class="td-time-car">取车时间</div>
+        <input type="date" class="inputdate">
+        <select id="clock">
+            <option value="15">15:00</option>
+            <option value="16">16:00</option>
+        </select>
+    </div>
+</div>
+<!-- 是否租车 -->
+<div class="td-term">
+    <h4>短期<span>2天</span>，不限里程</h4>
+    <div class="td-term-car">立即选车</div>
+</div>
     </div>
 
+</div>
 
-    
+
+
+
+
+
     <!-- ----------------脚部---------------- -->
     <div class="footer">
         <div class="f-about contain">
-          <!-- 关于卡卡租车 -->
-          <ul class="footer-about">
-            <li>关于卡卡租车</li>
-            <li><a href="#">关于我们</a></li>
-            <li><a href="#">联系我们</a></li>
-            <li><a href="#">加入我们</a></li>
-            <li><a href="#">媒体报道</a></li>
-          </ul>
-          <ul>
-            <li>条款</li>
-            <li><a href="">隐私条款</a></li>
-            <li><a href="">用户协议</a></li>
-          </ul>
-          <ul>
-            <li>帮助</li>
-            <li><a href="">客服中心</a></li>
-            <li><a href="">互问互答</a></li>
-            <li><a href="">常见问题</a></li>
-            <li><a href="">出游安全提示</a></li>
-          </ul>
-          <ul>
-            <li>关于服务</li>
-            <li><a href="">服务时间</a></li>
-            <li><a href="">短租及可选服务</a></li>
-          </ul>
-          <ul>
-            <li>微信公众号</li>
-            <li><img src="../images/wechrt.png" alt="" /></li>
-          </ul>
+            <!-- 关于卡卡租车 -->
+            <ul class="footer-about">
+                <li>关于卡卡租车</li>
+                <li><a href="#">关于我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">加入我们</a></li>
+                <li><a href="#">媒体报道</a></li>
+            </ul>
+            <ul>
+                <li>条款</li>
+                <li><a href="">隐私条款</a></li>
+                <li><a href="">用户协议</a></li>
+            </ul>
+            <ul>
+                <li>帮助</li>
+                <li><a href="">客服中心</a></li>
+                <li><a href="">互问互答</a></li>
+                <li><a href="">常见问题</a></li>
+                <li><a href="">出游安全提示</a></li>
+            </ul>
+            <ul>
+                <li>关于服务</li>
+                <li><a href="">服务时间</a></li>
+                <li><a href="">短租及可选服务</a></li>
+            </ul>
+            <ul>
+                <li>微信公众号</li>
+                <li><img src="../images/wechrt.png" alt="" /></li>
+            </ul>
         </div>
-      </div>
-    </body>
-  </html>
-  
+    </div>
+</body>
+
+</html>
