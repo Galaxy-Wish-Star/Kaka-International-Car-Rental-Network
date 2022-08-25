@@ -20,147 +20,278 @@
   align-items: center;
 }
 /* 换车时间 */
-.time{
-    height: 168px;
-    margin-bottom: 30px;
-    box-shadow: -16px 9px 12px 0px rgba(98, 98, 98, 0.11);
+.time {
+  height: 168px;
+  margin-bottom: 30px;
+  box-shadow: -16px 9px 12px 0px rgba(98, 98, 98, 0.11);
 }
-.t-date{
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
+.t-date {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 /* 分三块地点时间和取车 */
-.td-position{
-    width: 428px;
-    height: 100%;
-    display: flex;
-    flex-direction: column
-    ;
-    justify-content: space-around;
+.td-position {
+  width: 428px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.td-time{
-    width: 486px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.td-time {
+  width: 486px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.td-term{
-width: 156px;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
+.td-term {
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 /* 取车地点 */
-.p-pick-car{
-    display: flex;
-    width: 100%;
-    height: 54px;
-    font-size: 16px;
+.p-pick-car {
+  display: flex;
+  width: 100%;
+  height: 54px;
+  font-size: 16px;
 }
-.pick-car{
-    background-color: #fff;
-    width: 70px;
-    height: 100%;
-    text-align: center;
-    line-height: 54px;
-    border: 2px solid #e7e7e7;
-    color: #525252;
-    font-family: "sourceHansans CN-Medium" ;
-    box-sizing: border-box;
-    font-size: 16px;
+.pick-car {
+  background-color: #fff;
+  width: 70px;
+  height: 100%;
+  text-align: center;
+  line-height: 54px;
+  border: 2px solid #e7e7e7;
+  color: #525252;
+  font-family: "sourceHansans CN-Medium";
+  box-sizing: border-box;
+  font-size: 16px;
 }
-#city{
-font-family: "sourceHansans CN-Medium";
-font-size: 16px;
-width: 168px;
-border: none;
-border: 2px solid #e7e7e7;
-height: 100%;
-box-sizing: border-box;
-color: #989898;
-border-left:none ;
+#city {
+  font-family: "sourceHansans CN-Medium";
+  font-size: 16px;
+  width: 168px;
+  border: none;
+  border: 2px solid #e7e7e7;
+  height: 100%;
+  box-sizing: border-box;
+  color: #989898;
+  border-left: none;
 }
-#county{
-    box-sizing: border-box;
-    width: 190px;
-    height: 100%;
-    border: none;
-    border: 2px solid #e7e7e7;
-    color: #989898;
-    border-left: none;
+#county {
+  box-sizing: border-box;
+  width: 190px;
+  height: 100%;
+  border: none;
+  border: 2px solid #e7e7e7;
+  color: #989898;
+  border-left: none;
 }
 /* 取车的是时间 */
-.td-time-pick{
-    height: 54px;
+.td-time-pick {
+  height: 54px;
+  display: flex;
+  font-size: 16px;
+}
+.td-time-car {
+  background-color: #fff;
+  width: 100px;
+  border: none;
+  height: 100%;
+  border: 2px solid #e7e7e7;
+  line-height: 54px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.inputdate {
+  background-color: #fff;
+  width: 230px;
+  border: none;
+  height: 100%;
+  border: 2px solid #e7e7e7;
+  line-height: 54px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.inputdate::-webkit-inner-spin-button {
+  visibility: hidden;
+}
+.inputdate::-webkit-calendar-picker-indicator {
+  font-size: 16px;
+  padding: 16px;
+}
+#clock {
+  width: 156px;
+  border: none;
+  border: 2px solid #e7e7e7;
+  box-sizing: border-box;
+  height: 100%;
+  border-left: none;
+  text-align: center;
+  color: #989898;
+  height: 54px;
+}
+.td-time-back {
+  height: 54px;
+  display: flex;
+  font-size: 16px;
+}
+/* 是否租车 */
+.td-term h4 {
+  color: #636363;
+  font-weight: 400;
+  font-size: 18px;
+}
+.td-term h4 span {
+  color: #f88349;
+}
+.td-term-car {
+  width: 156px;
+  height: 58px;
+  border-radius: 6px;
+  background-color: #ca9b44;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  line-height: 58px;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+/* 内容商品展示车 */
+.content{
+    height: 2078px;
     display: flex;
-    font-size: 16px;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
-.td-time-car{
-    background-color: #fff;
-    width: 100px;
-    border: none;
-    height: 100%;
-    border: 2px solid #e7e7e7;
-    line-height: 54px;
-    text-align: center;
+.content-car{
+    padding: 8px;
+    height: 240px;
     box-sizing: border-box;
-}
-.inputdate{
-    background-color: #fff;
-    width: 230px;
-    border: none;
-    height: 100%;
-    border: 2px solid #e7e7e7;
-    line-height: 54px;
-    text-align: center;
-    box-sizing: border-box;
-}
-.inputdate::-webkit-inner-spin-button{
-    visibility: hidden;
-    }
-    .inputdate::-webkit-calendar-picker-indicator{
-    font-size: 16px;
-    padding: 16px;
-    }
-    #clock{
-    width: 156px;
-    border: none;
-    border: 2px solid #e7e7e7;
-    box-sizing: border-box;
-    height: 100%;
-    border-left: none;
-    text-align: center;
-    color: #989898;
-    height: 54px;
-    }
-    .td-time-back{
-    height: 54px;
     display: flex;
-    font-size: 16px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+/* 左边部分 */
+.ccar-left{
+    width: 346px;
+    height: 224px;
+    float: left;
+    margin-right: 20px;
+}
+/* 中间部分 */
+.ccar-center{
+    float: left;
+    width: 492px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: left;
+    align-content: left;
     }
-    /* 是否租车 */
-    .td-term h4{
-    color: #636363;
-    font-weight: 400;
+    .ccar-center h4{
+    font-family: "SourceHanSansCN-Bold";
+    font-size: 24px;
+    color: #646464;
+    }
+    .icon-words{
+    display: flex;
+    justify-content: space-between;
+    color: #6b6b6b;
+    letter-spacing: 1px;
+    font-family: "SourceHanSansCN-Medium";
     font-size: 18px;
     }
-    .td-term h4 span{
-    color: #f88349;
+    .space{
+    color: #cb9e4c;
     }
-    .td-term-car{
-    width: 156px;
-    height: 58px;
-    border-radius: 6px;
-    background-color: #ca9b44;
-    color: white;
-    font-weight: 600;
-    text-align: center;
-    line-height: 58px;
+    .ccar-center p{
+    letter-spacing: 1px;
+    font-family: "SourceHanSansCN-Medium";
+    color: #6b6b6b;
+    font-size: 18px;
+    }
+    .ccar-center .browse{
+    color: #969696;
+    font-family: "SourceHanSansCN-Medium";
+    font-size: 18px;
+    }
+    /* 右边部分 */
+    .ccar-right{
+    float: left;
+    height: 100%;
+    width: 209px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    }
+    .ccar-right .day{
+    font-family: "SourceHanSansCN-Regular";
+    font-size: 18px;
+    color: #fd640e;
+    margin-bottom: 10px ;
+    }
+    .ccar-right .day h5{
+    font-family: "SourceHanSansCN-Heavy";
+    font-size: 30px;
+    color: #fd640e;
+    display: inline-block;
+    }
+    .ccar-right .total{
+    color: #969696;
+    font-family: "SourceHanSansCN-Medium";
+    margin-bottom: 44px ;
+    font-size: 18px;
+    }
+    .ccar-right .reserve a{
+    display: inline-block;
+    width: 108px;
+    border-radius: 5px;
+    color: #ffffff;
     font-size: 20px;
-    letter-spacing: 2px;
+    text-align: center;
+    line-height: 42px;
     }
+   /* 换页 */
+   .skip{
+    width: 402px;
+    height: 130px;
+    margin: 42px auto;
+    display: flex;
+    align-items: center;
+   }
+   .skip ul{
+    display: flex;
+   }
+   .skip li a{
+    display: inline-block;
+    border: 1px solid #d3d3d3;
+    width: 40px;
+    color: #9b9b9b;
+    font-size: 18px;
+    margin-right: 26px;
+    box-sizing: border-box;
+    line-height: 42px;
+    text-align: center;
+   }
+   .skip li:first-child a{
+    width: 88px;
+   }
+   .skip li:last-child a{
+    width: 88px;
+   }
+   .skip li:nth-child(2)a{
+    background-color: #fff;
+   }
+   .skip li a:hover{
+    background-color: #fff;
+   }
         
