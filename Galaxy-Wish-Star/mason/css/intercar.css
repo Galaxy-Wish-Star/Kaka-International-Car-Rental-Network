@@ -316,3 +316,9 @@
     font-size: 20px;
     line-height: 90px;
 }
+/* 车型组 */
+.car-style{
+height: 138px;
+border-bottom: dashed 1px #ddd;
+
+}
