@@ -395,3 +395,9 @@
 .car-style ul a:hover {
   border-color: #fed201;
 }
+.h-logo a {
+  display: inline-block;
+  width: 144px;
+  height: 56px;
+  background: url(../images/logo.png) no-repeat center;
+}
