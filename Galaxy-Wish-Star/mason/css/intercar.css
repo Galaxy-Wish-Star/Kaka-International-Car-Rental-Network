@@ -294,31 +294,104 @@
   background-color: #fff;
 }
 /* 回到顶部 */
-.back-top{
-    position: fixed;
-    bottom: 10%;
-    right: 0;
+.back-top {
+  position: fixed;
+  bottom: 10%;
+  right: 0;
 }
-.back-top a{
-    display: inline-block;
-    width: 66px;
-    border-radius: 50%;
-    line-height: 66px;
-    color: rgb(104,104,104);
-    font-size: 12px;
-    text-align: center;
-    background-color: rgb(225,225,225);
-    box-shadow: -8px 3px 7px 0px rgba(98,98,98 ,0.5);
+.back-top a {
+  display: inline-block;
+  width: 66px;
+  border-radius: 50%;
+  line-height: 66px;
+  color: rgb(104, 104, 104);
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(225, 225, 225);
+  box-shadow: -8px 3px 7px 0px rgba(98, 98, 98, 0.5);
 }
-.back-top a:hover{
-    width: 90px;
-    height: 90px;
-    font-size: 20px;
-    line-height: 90px;
+.back-top a:hover {
+  width: 90px;
+  height: 90px;
+  font-size: 20px;
+  line-height: 90px;
 }
 /* 车型组 */
-.car-style{
-height: 138px;
-border-bottom: dashed 1px #ddd;
+/*---------------- 车型组---------------- */
+.car-style {
+  height: 138px;
+  border-bottom: dashed 1px #ddd;
+  background-color: #fff;
+  font-family: "SourceHanSansCN-Medium";
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.car-style .cs-words {
+  margin: 0 52px 0 26px;
+  width: 60px;
+}
+.car-style ul {
+  width: 1012px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding-right: 38px;
+}
+.car-style ul a {
+  height: 80px;
+  width: 122px;
+  box-sizing: border-box;
+  border: solid 1px #e6e6e6;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.car-style ul li:nth-child(1) .img {
+  width: 46px;
+  height: 40px;
+  background: url(../images/雪碧图.png);
+}
+.car-style ul li:nth-child(2) .img {
+  width: 60px;
+  height: 34px;
+  background: url(../images/雪碧图.png);
+  background-position: 0 -44px;
+}
+.car-style ul li:nth-child(3) .img {
+  width: 60px;
+  height: 34px;
+  background: url(../images/雪碧图.png);
+  background-position: 0 -88px;
+}
+.car-style ul li:nth-child(3) .img {
+  width: 60px;
+  height: 34px;
+  background: url(../images/雪碧图.png);
+  background-position: 0 -122px;
+}
+.car-style ul li:nth-child(4) .img {
+  width: 70px;
+  height: 34px;
+  background: url(../images/雪碧图.png);
+  background-position: 0px -164px;
+}
+.car-style ul li:nth-child(5) .img {
+  width: 60px;
+  height: 34px;
+  background: url(../images/雪碧图.png);
+  background-position: 0 -210px;
+}
+.car-style ul li:nth-child(6) .img {
+  width: 60px;
+  height: 34px;
+  background: url(../images/雪碧图.png);
+  background-position: 0 -210px;
+}
 
+/* 剩余雪碧图同上 */
+.car-style ul a:hover {
+  border-color: #fed201;
 }
