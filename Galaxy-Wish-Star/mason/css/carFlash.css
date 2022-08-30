@@ -1,16 +1,12 @@
-/* ----------------版心设置---------------- */
-.contain {
-  width: 1150px;
-  margin: 0 auto;
-  box-sizing: border-box;
+/* ----------------banner部分---------------- */
+.banner-box {
+  background: url(../images/闪租banner-bg.png);
+  margin-bottom: 30px;
 }
-body {
-  background-color: #f3f3f3;
+.fast-banner {
+  height: 322px;
 }
-.hw {
-  height: 16px;
-  width: 16px;
-}
+
 /*---------------- head部分---------------- */
 .header {
   height: 100px;
@@ -37,199 +33,137 @@ body {
   height: 56px;
   background: url(../images/logo.png) no-repeat center;
 }
-/* ----------------banner部分---------------- */
-.banner-box {
-  background: url(../images/闪租banner-bg.png);
-  margin-bottom: 30px;
-}
-.fast-banner {
-  height: 322px;
-}
-
-/*---------------- 脚部---------------- */
-.footer {
-  height: 310px;
-  background-color: #eee;
-}
-.f-about {
-  display: flex;
-  justify-content: space-between;
-}
-.f-about ul li {
-  font-family: "SourceHanSansCN-Normal";
-  font-size: 20px;
-  letter-spacing: -2px;
-  color: #343434;
-  margin-bottom: 20px;
-}
-.f-about ul li:first-child {
-  font-family: "SourceHanSansCN-Bold";
-  font-size: 22px;
-  font-weight: 700;
-  letter-spacing: -2px;
-  color: #343434;
-  margin-bottom: 42px;
-  margin-top: 52px;
-}
-.f-about ul li a:hover {
-  color: #ca9a45;
-}
-/* 小圆圈的公共类 取还驾照 */
-.circle {
-  width: 30px;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 30px;
-  color: #ffffff;
-  font-size: 12px;
-}
-/* 盒子阴影大小 */
-.box {
-  box-shadow: -2px 7px 10px 0px rgba(98, 98, 98, 0.11);
-  transition: all 0.5s;
-}
-.box:hover {
-  cursor: pointer;
-  transform: translateY(-10px);
-}
-.button {
-  background-color: #ffa42c;
-}
-.button:hover {
-  cursor: pointer;
-  background-color: #c57b19;
-}
 /* ----------------闪租-车---------------- */
 .fast-car{
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    }
-    .fastc-title{
-    font-size: 22px;
-    font-weight: 700;
-    color: #343434;
-    }
-    .fastc-title span:nth-child(2){
-    font-weight: 400;
-    color: #cf9257;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  .fastc-title{
+  font-size: 22px;
+  font-weight: 700;
+  color: #343434;
+  }
+  .fastc-title span:nth-child(2){
+  font-weight: 400;
+  color: #cf9257;
+  font-size: 20px;
+  }
+  .fastc-content{
+  display: flex;
+  justify-content: space-between;
+  height: 355px;
+  width: 100%;
+  }
+  .fast-left{
+  overflow: hidden;
+  height: 100%;
+  width: 365px;
+  }
+  /* 第一部分 */
+  .fast-left{
+  position: relative;
+  }
+  .shou-words{
+  padding: 10px;
+  position: absolute;
+  top: 70%;
+  left: 6%;
+  color: #ffffff;
+  box-shadow: inset 0px -48px 21px -11px rgba(255, 255, 255, 0.3);
+  opacity: 1;
+  transition: all 0.5s;
+  }
+  .shou-words span{
+  font-size: 30px;
+  font-weight: 700;
+  }
+  .shou-words p{
     font-size: 20px;
-    }
-    .fastc-content{
-    display: flex;
-    justify-content: space-between;
-    height: 355px;
-    width: 100%;
-    }
-    .fast-left{
-    overflow: hidden;
-    height: 100%;
-    width: 365px;
-    }
-    /* 第一部分 */
-    .fast-left{
-    position: relative;
-    }
-    .shou-words{
-    padding: 10px;
-    position: absolute;
-    top: 70%;
-    left: 6%;
-    color: #ffffff;
-    box-shadow: inset 0px -48px 21px -11px rgba(255, 255, 255, 0.3);
+    font-weight: 500;
+    margin-top: 10px;
+    color: #eb8525;
     opacity: 1;
+    }
+    .fast-left img{
+    height: 100%;
+    position: absolute;
+    left: -15%;
+    }
+    .fast-left .img-shadow{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0000009a;
+    opacity: 0;
     transition: all 0.5s;
     }
-    .shou-words span{
+    .img-words{
+    position: absolute;
+    color: #fff;
+    opacity: 0;
+    transition: all 0.5s;
+    }
+    .img-words span{
+    display: inline-block;
+    padding: 30px 20px 10px;
     font-size: 30px;
-    font-weight: 700;
+    letter-spacing: 2px;
+    border-width: blod;
     }
-    .shou-words p{
-        font-size: 20px;
-        font-weight: 500;
-        margin-top: 10px;
-        color: #eb8525;
-        opacity: 1;
-        }
-        .fast-left img{
-        height: 100%;
-        position: absolute;
-        left: -15%;
-        }
-        .fast-left .img-shadow{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: #0000009a;
-        opacity: 0;
-        transition: all 0.5s;
-        }
-        .img-words{
-        position: absolute;
-        color: #fff;
-        opacity: 0;
-        transition: all 0.5s;
-        }
-        .img-words span{
-        display: inline-block;
-        padding: 30px 20px 10px;
-        font-size: 30px;
-        letter-spacing: 2px;
-        border-width: blod;
-        }
-        .img-words p{
-        display: inline-block;
-        padding: 0 20px;
-        font-size: 20px;
-        color: #eb8525;
-        }
-        .fast-left:hover .img-shadow{
-        opacity: 1;
-        }
-        .fast-left:hover .shou-words{
-        opacity: 0;
-        }
-        .fast-left:hover .img-words{
-        transition-delay: 0.5s;
-        opacity: 1;
-        }
-        /* 左边文字被hover的状态 */
-        .fast-car-move:hover .fc-words-left{
-        transform: translateX(-200px);
-        }
-        /* 右边文字 */
-        .fast-car-move .fc-words-right{
-        position: absolute;
-        transition: all 0.5s;
-        transform: translateX(200px);
-        top:20%;
-    }
-    .fc-words-right span{
-    font-family: "SourceHanSansCN-Bold";
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 18px;
-    color: #b87721;
-    }
-    .fc-words-right div{
-    width: 108px;
-    border-radius: 5px;
-    color: #ffffff;
+    .img-words p{
+    display: inline-block;
+    padding: 0 20px;
     font-size: 20px;
-    text-align: center;
-    line-height: 42px;
-    background-color: #ffa42c;
-    margin-top: 20px;
+    color: #eb8525;
     }
-    .fast-car-move:hover .fc-words-right{
-    transform: translateX(-10px);
+    .fast-left:hover .img-shadow{
+    opacity: 1;
     }
-    .fc-words-right div:hover{
-    background-color: #c57b19;
+    .fast-left:hover .shou-words{
+    opacity: 0;
     }
+    .fast-left:hover .img-words{
+    transition-delay: 0.5s;
+    opacity: 1;
+    }
+    /* 左边文字被hover的状态 */
+    .fast-car-move:hover .fc-words-left{
+    transform: translateX(-200px);
+    }
+    /* 右边文字 */
     .fast-car-move .fc-words-right{
     position: absolute;
-    right: 0;
-    }
-                
+    transition: all 0.5s;
+    transform: translateX(200px);
+    top:20%;
+  }
+  .fc-words-right span{
+  font-family: "SourceHanSansCN-Bold";
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: #b87721;
+  }
+  .fc-words-right div{
+  width: 108px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 42px;
+  background-color: #ffa42c;
+  margin-top: 20px;
+  }
+  .fast-car-move:hover .fc-words-right{
+  transform: translateX(-10px);
+  }
+  .fc-words-right div:hover{
+  background-color: #c57b19;
+  }
+  .fast-car-move .fc-words-right{
+  position: absolute;
+  right: 0;
+  }
+  
