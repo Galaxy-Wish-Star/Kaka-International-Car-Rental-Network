@@ -1,195 +1,187 @@
 /* ----------------版心设置---------------- */
 .contain {
-    width: 1150px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-  body {
-    background-color: #f3f3f3;
-  }
-  .hw {
-    height: 16px;
-    width: 16px;
-  }
-  
-  /*---------------- head部分---------------- */
-  .header {
-    height: 100px;
-  
-    background-color: #202020;
-  }
-  .h-words {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-  }
-  /* logo部分 */
-  .h-logo {
-    width: 144px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  .h-logo a {
-    display: inline-block;
-    width: 144px;
-    height: 56px;
-    background: url(../images/logo.png) no-repeat center;
-  }
+  width: 1150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f3f3;
+}
+.hw {
+  height: 16px;
+  width: 16px;
+}
+
+/*---------------- head部分---------------- */
+.header {
+  height: 100px;
+
+  background-color: #202020;
+}
+.h-words {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+/* logo部分 */
+.h-logo {
+  width: 144px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.h-logo a {
+  display: inline-block;
+  width: 144px;
+  height: 56px;
+  background: url(../images/logo.png) no-repeat center;
+}
 
 /* ----------------banner部分---------------- */
-.about-banner{
-    height: 411px;
-    background: url(../images/bg_about.jpg);
-    padding: 100px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    }
-    .about-banner p{
-    font-size: 36px;
-    color: #fff;
-    font-weight: bold;
-    }
-    .about-banner span{
-    font-size: 14px;
-    color: #fff;
-    }
-    .about-banner a{
-    padding: 14px 32px;
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    }
-    .about-banner a:hover{
-    background: #fff;
-    color: #000;
-    }
+.about-banner {
+  height: 411px;
+  background: url(../images/bg_about.jpg);
+  padding: 100px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+.about-banner p {
+  font-size: 36px;
+  color: #fff;
+  font-weight: bold;
+}
+.about-banner span {
+  font-size: 14px;
+  color: #fff;
+}
+.about-banner a {
+  padding: 14px 32px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+.about-banner a:hover {
+  background: #fff;
+  color: #000;
+}
 /* ----------------关于我们部分---------------- */
-.about-content{
-    height: 450px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-    }
-    .about-idea{
-    margin-top: 30px;
-    height: 100%;
-    width: 300px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
-    }
-    .about-idea .abput-icons{
-    width: 151px;
-    height: 151px;
-    overflow: hidden;
-    }
-    .abput-icons .fa{
-    width: 151px;
-    height: 151px;
-    border-radius: 50%;
-    background-color: #202020;
-    color: #ffffff;
-    font-size: 100px;
-    line-height: 151px;
-    text-align: center;
-    transition: all 0.5s;
-    }
-    .abput-icons .fa:nth-child(2){
-    background-color: #ffa42c;
-    }
-    .abput-icons:hover .fa{
-    transform: translateY(-151px);
-    }
-    .about-idea p{
-        margin-bottom: 18px;
-font-size: 18px;
-font-weight: bold;
+.about-content {
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
-.about-idea .muchwords{
-height: 180px;
-line-height: 30px;
-overflow: hidden;
-color: #666;
+.about-idea {
+  margin-top: 30px;
+  height: 100%;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
-.about-idea .readmore{
-box-sizing: border-box;
-border-radius: 8px;
-padding: 9px 34px;
-border: 1px solid #9c9c9c;
+.about-idea .abput-icons {
+  width: 151px;
+  height: 151px;
+  overflow: hidden;
 }
-.about-idea .readmore:hover{
-background-color: #ffa42c;
-color: #ffffff;
-border: 1px solid #ffa42c;
+.abput-icons .fa {
+  width: 151px;
+  height: 151px;
+  border-radius: 50%;
+  background-color: #202020;
+  color: #ffffff;
+  font-size: 100px;
+  line-height: 151px;
+  text-align: center;
+  transition: all 0.5s;
 }
-
-
-
-
-
-
-  
-
+.abput-icons .fa:nth-child(2) {
+  background-color: #ffa42c;
+}
+.abput-icons:hover .fa {
+  transform: translateY(-151px);
+}
+.about-idea p {
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.about-idea .muchwords {
+  height: 180px;
+  line-height: 30px;
+  overflow: hidden;
+  color: #666;
+}
+.about-idea .readmore {
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 9px 34px;
+  border: 1px solid #9c9c9c;
+}
+.about-idea .readmore:hover {
+  background-color: #ffa42c;
+  color: #ffffff;
+  border: 1px solid #ffa42c;
+}
 
 /*---------------- 脚部---------------- */
 .footer {
-    height: 310px;
-    background-color: #eee;
-  }
-  .f-about {
-    display: flex;
-    justify-content: space-between;
-  }
-  .f-about ul li {
-    font-family: "SourceHanSansCN-Normal";
-    font-size: 20px;
-    letter-spacing: -2px;
-    color: #343434;
-    margin-bottom: 20px;
-  }
-  .f-about ul li:first-child {
-    font-family: "SourceHanSansCN-Bold";
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: -2px;
-    color: #343434;
-    margin-bottom: 42px;
-    margin-top: 52px;
-  }
-  .f-about ul li a:hover {
-    color: #ca9a45;
-  }
-  /* 小圆圈的公共类 取还驾照 */
-  .circle {
-    width: 30px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 30px;
-    color: #ffffff;
-    font-size: 12px;
-  }
-  /* 盒子阴影大小 */
-  .box {
-    box-shadow: -2px 7px 10px 0px rgba(98, 98, 98, 0.11);
-    transition: all 0.5s;
-  }
-  .box:hover {
-    cursor: pointer;
-    transform: translateY(-10px);
-  }
-  .button {
-    background-color: #ffa42c;
-  }
-  .button:hover {
-    cursor: pointer;
-    background-color: #c57b19;
-  }
+  height: 310px;
+  background-color: #eee;
+}
+.f-about {
+  display: flex;
+  justify-content: space-between;
+}
+.f-about ul li {
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 20px;
+  letter-spacing: -2px;
+  color: #343434;
+  margin-bottom: 20px;
+}
+.f-about ul li:first-child {
+  font-family: "SourceHanSansCN-Bold";
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  color: #343434;
+  margin-bottom: 42px;
+  margin-top: 52px;
+}
+.f-about ul li a:hover {
+  color: #ca9a45;
+}
+/* 小圆圈的公共类 取还驾照 */
+.circle {
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #ffffff;
+  font-size: 12px;
+}
+/* 盒子阴影大小 */
+.box {
+  box-shadow: -2px 7px 10px 0px rgba(98, 98, 98, 0.11);
+  transition: all 0.5s;
+}
+.box:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+.button {
+  background-color: #ffa42c;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #c57b19;
+}
