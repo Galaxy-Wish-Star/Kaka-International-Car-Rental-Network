@@ -11,7 +11,6 @@ body {
   height: 16px;
   width: 16px;
 }
-
 /*---------------- head部分---------------- */
 .header {
   height: 100px;
@@ -92,7 +91,7 @@ body {
   height: 151px;
   overflow: hidden;
 }
-.abput-icons .fa {
+.abput-icons .fa,.fab {
   width: 151px;
   height: 151px;
   border-radius: 50%;
@@ -103,12 +102,20 @@ body {
   text-align: center;
   transition: all 0.5s;
 }
-.abput-icons .fa:nth-child(2) {
+.abput-icons .fab {
+  line-height: 151px;
+
+}
+.abput-icons .fa:nth-child(2),.fab:nth-child(2) {
   background-color: #ffa42c;
 }
 .abput-icons:hover .fa {
   transform: translateY(-151px);
 }
+.abput-icons:hover .fab {
+  transform: translateY(-151px);
+}
+
 .about-idea p {
   margin-bottom: 18px;
   font-size: 18px;
