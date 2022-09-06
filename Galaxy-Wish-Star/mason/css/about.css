@@ -1,4 +1,4 @@
-/* ----------------版心设置---------------- */
+
 .contain {
   width: 1150px;
   margin: 0 auto;
@@ -12,7 +12,7 @@ body {
   height: 16px;
   width: 16px;
 }
-/*---------------- head部分---------------- */
+
 .header {
   height: 100px;
 
@@ -25,7 +25,7 @@ body {
   align-items: center;
   position: relative;
 }
-/* logo部分 */
+
 .h-logo {
   width: 144px;
   height: 100%;
@@ -39,7 +39,7 @@ body {
   background: url(../images/logo.png) no-repeat center;
 }
 
-/* ----------------banner部分---------------- */
+
 .about-banner {
   height: 411px;
   background: url(../images/bg_about.jpg);
@@ -70,7 +70,7 @@ body {
   background: #fff;
   color: #000;
 }
-/* ----------------关于我们部分---------------- */
+
 .about-content {
   height: 450px;
   display: flex;
@@ -140,7 +140,7 @@ body {
   border: 1px solid #ffa42c;
 }
 
-/*---------------- 脚部---------------- */
+
 .footer {
   height: 310px;
   background-color: #eee;
@@ -168,7 +168,7 @@ body {
 .f-about ul li a:hover {
   color: #ca9a45;
 }
-/* 小圆圈的公共类 取还驾照 */
+
 .circle {
   width: 30px;
   border-radius: 50%;
@@ -177,7 +177,7 @@ body {
   color: #ffffff;
   font-size: 12px;
 }
-/* 盒子阴影大小 */
+
 .box {
   box-shadow: -2px 7px 10px 0px rgba(98, 98, 98, 0.11);
   transition: all 0.5s;
