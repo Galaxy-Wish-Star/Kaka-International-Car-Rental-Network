@@ -38,3 +38,66 @@
     height: 56px;
     background: url(../images/logo.png) no-repeat center;
   }
+
+
+
+
+
+
+
+  
+
+
+/*---------------- 脚部---------------- */
+.footer {
+    height: 310px;
+    background-color: #eee;
+  }
+  .f-about {
+    display: flex;
+    justify-content: space-between;
+  }
+  .f-about ul li {
+    font-family: "SourceHanSansCN-Normal";
+    font-size: 20px;
+    letter-spacing: -2px;
+    color: #343434;
+    margin-bottom: 20px;
+  }
+  .f-about ul li:first-child {
+    font-family: "SourceHanSansCN-Bold";
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    color: #343434;
+    margin-bottom: 42px;
+    margin-top: 52px;
+  }
+  .f-about ul li a:hover {
+    color: #ca9a45;
+  }
+  /* 小圆圈的公共类 取还驾照 */
+  .circle {
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 12px;
+  }
+  /* 盒子阴影大小 */
+  .box {
+    box-shadow: -2px 7px 10px 0px rgba(98, 98, 98, 0.11);
+    transition: all 0.5s;
+  }
+  .box:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+  }
+  .button {
+    background-color: #ffa42c;
+  }
+  .button:hover {
+    cursor: pointer;
+    background-color: #c57b19;
+  }
