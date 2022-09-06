@@ -3,6 +3,7 @@
   width: 1150px;
   margin: 0 auto;
   box-sizing: border-box;
+  margin-bottom: 50px !important;
 }
 body {
   background-color: #f3f3f3;
