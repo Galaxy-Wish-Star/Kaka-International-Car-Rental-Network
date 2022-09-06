@@ -1,0 +1,17 @@
+.h-title li:nth-child(3) a {
+    color: #cf9257;
+  }
+  
+  /* ----------------banner部分---------------- */
+  .banner-box {
+    background: url(../images/闪租banner-bg.png);
+    margin-bottom: 30px;
+  }
+  .header {
+      height: 100px;
+      
+      background-color: #202020;
+    }
+  .fast-banner {
+    height: 322px;
+  }

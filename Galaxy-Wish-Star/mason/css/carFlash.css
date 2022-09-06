@@ -1,6 +1,46 @@
 .h-title li:nth-child(3) a {
   color: #cf9257;
 }
+/* ----------------版心设置---------------- */
+.contain {
+  width: 1150px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f3f3;
+}
+.hw {
+  height: 16px;
+  width: 16px;
+}
+
+/*---------------- head部分---------------- */
+.header {
+  height: 100px;
+
+  background-color: #202020;
+}
+.h-words {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+/* logo部分 */
+.h-logo {
+  width: 144px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.h-logo a {
+  display: inline-block;
+  width: 144px;
+  height: 56px;
+  background: url(../images/logo.png) no-repeat center;
+}
 
 /* ----------------banner部分---------------- */
 .banner-box {
