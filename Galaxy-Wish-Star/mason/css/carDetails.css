@@ -1,4 +1,3 @@
-
 .details-title {
   height: 58px;
   display: flex;
@@ -17,7 +16,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 
 .details-choose {
@@ -35,6 +33,7 @@
   box-sizing: border-box;
 }
 .dc-left .dcl-img {
+  
   height: 260px;
   overflow: hidden;
 }
@@ -111,7 +110,6 @@
 .driving-license p {
   font-size: 14px;
 }
-
 
 .dc-right {
   background-color: #fff;
@@ -249,311 +247,311 @@
   color: #ffffff;
 }
 /* --------------------------第二部分，套餐包含-------------------------- */
-.details-content{
+.details-content {
   height: 1670px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   margin-bottom: 50px;
-  }
-  /* 套餐包含分为左右两部分 */
-  /* 套餐左部分 */
-  .dcontent-left{
+}
+/* 套餐包含分为左右两部分 */
+/* 套餐左部分 */
+.dcontent-left {
   width: 859px;
   height: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  }
-  /* 套餐左-上面部分 */
-  .dcontentl-top{
+}
+/* 套餐左-上面部分 */
+.dcontentl-top {
   /* width: 100%; */
   width: 859px;
   height: 62px;
   background-color: #ffffff;
   box-shadow: -16px 9px 12px 0px rgba(98, 98, 98, 0.11);
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.dcontentl-top ul{
-height: 100%;
-display: flex;
-align-items: center;
+.dcontentl-top ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
-.dcontentl-top a{
-font-family: "SourceHanSansCN-Normal";
-font-size: 20px;
-color: #343434;
-padding: 38px;
-line-height: 62px;
+.dcontentl-top a {
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 20px;
+  color: #343434;
+  padding: 38px;
+  line-height: 62px;
 }
-.dcontentl-top li:first-child{
-border-bottom: 4px solid #ddbe87;
+.dcontentl-top li:first-child {
+  border-bottom: 4px solid #ddbe87;
 }
-.dcontentl-top li:hover{
-border-bottom: 4px solid #ddbe87;
+.dcontentl-top li:hover {
+  border-bottom: 4px solid #ddbe87;
 }
 /* 套餐包含左-下面部分 */
-.dcontentl-bottom{
-padding-left: 30px;
-padding-right: 30px;
-box-sizing: border-box;
-height: 1586px;
-background-color: #fff;
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
+.dcontentl-bottom {
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  height: 1586px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.dcontentl-bottom p{
-font-family: "SourceHanSansCN-Normal";
-font-size: 30px;
+.dcontentl-bottom p {
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 30px;
 }
 /* 套餐租金服务 */
-.dcontentl-rent{
-height: 150px;
-display: flex;
-justify-content: space-between;
-}
-/* 左边租金及服务费用 */
-.tent-headline{
-width: 190px;
-height: 150px;
-border-radius: 10px;
-background-color: #fafafe;
-display: flex;
-flex-direction: column;
-align-items: center;
-align-content: center;
-justify-content: space-evenly;
-}
-.tent-headline .circle{
-width: 66px;
-height: 66px;
-border-radius: 50%;
-border: solid 6px #f9d876;
-color: #fdc376;
-font-family: "SourceHanSansCN-Normal";
-font-size: 50px;
-line-height: 66px;
-text-align: center;
-}
-/* 右边内容 */
-.tent-content{
-width: 607px;
-height: 150px;
-background-color: #fafafe;
-border-radius: 10px;
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
-.tcontent-rent span{
-font-family: "SourceHanSansCN-Regular";
-font-size: 20px;
-color: #767775;
-}
-.tcontent-rent .fa{
-color: #a4d38a;
-font-size: 20px;
-padding: 4px;
-}
-/* 套餐保险 */
-.dcontentl-insurance{
-height: 993px;
-display: flex;
-justify-content: space-between;
-}
-.di-left{
-height: 100%;
-width: 190px;
-background-color: #fafafe;
-}
-.di-right{
-height: 100%;
-width: 607px;
-background-color: #fafafe;
-}
-/* 左边保险明细圆 */
-.dil-headline{
-width: 190px;
-height: 150px;
-border-radius: 10px;
-background-color: #fafafe;
-display: flex;
-flex-direction: column;
-align-items: center;
-align-content: center;
-justify-content: space-evenly;
-}
-.dil-headline .circle{
-width: 66px;
-height: 66px;
-border-radius: 50%;
-border: solid 6px #f9d876;
-color: #fdc376;
-font-family: "SourceHanSansCN-Normal";
-font-size: 40px;
-line-height: 66px;
-text-align: center;
-}
-/* 右边险种介绍 */
-.di-right{
-display: flex;
-justify-content: space-around;
-flex-direction: column;
-padding: 0 42px;
-box-sizing: border-box;
-}
-/* ----------碰撞险-保护自己-------- */
-.selfcar{
-width: 100%;
-height: 311px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-.selfcar-top .fa{
-color: #a4d38a;
-font-size: 20px;
-padding: 4px;
-}
-.selfcar-top span{
-font-family: "SourceHanSansCN-Normal";
-font-size: 18px;
-color: #8a8a8b;
-}
-.selfcar-top span:nth-child(3){
-font-family: "SourceHanSansCN-Normal";
-font-size: 18px;
-color: #9fb1f1;
-}
-.selfcar-bottom{
-width: 515px;
-height: 260px;
-background-color: #edf2fd;
-border-radius: 10px;
-}
-.selfcarbb-cotain{
-height: 130px;
-display: flex;
-padding: 16px;
-box-sizing: border-box;
-flex-direction: column;
-justify-content: space-around;
-}
-.selfcarbb-cotain span{
-font-family: "SourceHanSansCN-Bold";
-font-size: 18px;
-font-weight: 600;
-color: #6b6f6c;
-}
-.selfcarbb-cotain span:nth-child(2){
-font-family: "SourceHanSansCN-Regular";
-font-size: 18px;
-font-weight: 400;
-color: #878889;
-}
-/* ----------三者险-保护他人 ---------*/
-.other{
-width: 100%;
-height: 208px;
-}
-/* 三者险-保护他人 */
-.di-right .other{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-/* 三者险-上面部分（标题） */
-.other-top .fa{
-color: #a4d38a;
-font-size: 20px;
-padding: 4px;
-}
-.other-top span{
-font-family: "SourceHanSansCN-Normal";
-font-size: 18px;
-color: #8a8a8b;
-}
-.other-top span:nth-child(3){
-font-family: "SourceHanSansCN-Normal";
-font-size: 18px;
-color: #9fb1f1;
-}
-/* 三者险-下面部分（内容） */
-.other-bottom{
-height: 160px;
-background-color: #edf2fd;
-}
-.other-cotain{
-height: 130px;
-display: flex;
-padding: 16px;
-box-sizing: border-box;
-flex-direction: column;
-justify-content: space-between;
-color: #878889;
-}
-.other-cotain span:first-child{
-font-family: "SourceHanSansCN-Bold";
-font-size: 18px;
-font-weight: 600;
-color: #6b6f6c;
-margin-bottom: 20px;
-}
-/* ----------三者险补充说明---------- */
-.supplement-other{
-  width: 100%;
-  height: 322px;
+.dcontentl-rent {
+  height: 150px;
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
-  }
-  /* 三者险补充说明-上面标题 */
-  .supother-top{
+}
+/* 左边租金及服务费用 */
+.tent-headline {
+  width: 190px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #fafafe;
   display: flex;
-  }
-  .supother-top .fa{
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.tent-headline .circle {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: solid 6px #f9d876;
+  color: #fdc376;
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+}
+/* 右边内容 */
+.tent-content {
+  width: 607px;
+  height: 150px;
+  background-color: #fafafe;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tcontent-rent span {
+  font-family: "SourceHanSansCN-Regular";
+  font-size: 20px;
+  color: #767775;
+}
+.tcontent-rent .fa {
   color: #a4d38a;
   font-size: 20px;
   padding: 4px;
-  }
-  .supother-top span{
+}
+/* 套餐保险 */
+.dcontentl-insurance {
+  height: 993px;
+  display: flex;
+  justify-content: space-between;
+}
+.di-left {
+  height: 100%;
+  width: 190px;
+  background-color: #fafafe;
+}
+.di-right {
+  height: 100%;
+  width: 607px;
+  background-color: #fafafe;
+}
+/* 左边保险明细圆 */
+.dil-headline {
+  width: 190px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #fafafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+.dil-headline .circle {
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: solid 6px #f9d876;
+  color: #fdc376;
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 40px;
+  line-height: 66px;
+  text-align: center;
+}
+/* 右边险种介绍 */
+.di-right {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0 42px;
+  box-sizing: border-box;
+}
+/* ----------碰撞险-保护自己-------- */
+.selfcar {
+  width: 100%;
+  height: 311px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.selfcar-top .fa {
+  color: #a4d38a;
+  font-size: 20px;
+  padding: 4px;
+}
+.selfcar-top span {
   font-family: "SourceHanSansCN-Normal";
   font-size: 18px;
   color: #8a8a8b;
-  }
-  .supother-top span:nth-child(3){
-  color: #ff8ba0;
-  }
-  /* 三者险补充说明-中间内容 */
-  .supother-center{
-  height: 188px;
+}
+.selfcar-top span:nth-child(3) {
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 18px;
+  color: #9fb1f1;
+}
+.selfcar-bottom {
+  width: 515px;
+  height: 260px;
   background-color: #edf2fd;
+  border-radius: 10px;
+}
+.selfcarbb-cotain {
+  height: 130px;
   display: flex;
-  justify-content: space-around;
-  }
-  /* 中间内容-左边 */
-  .scenter-introduce{
-  width: 380px;
-  display: flex;
+  padding: 16px;
+  box-sizing: border-box;
   flex-direction: column;
   justify-content: space-around;
-  }
-  .scenter-introduce span:nth-child(1){
+}
+.selfcarbb-cotain span {
+  font-family: "SourceHanSansCN-Bold";
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b6f6c;
+}
+.selfcarbb-cotain span:nth-child(2) {
+  font-family: "SourceHanSansCN-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  color: #878889;
+}
+/* ----------三者险-保护他人 ---------*/
+.other {
+  width: 100%;
+  height: 208px;
+}
+/* 三者险-保护他人 */
+.di-right .other {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* 三者险-上面部分（标题） */
+.other-top .fa {
+  color: #a4d38a;
+  font-size: 20px;
+  padding: 4px;
+}
+.other-top span {
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 18px;
+  color: #8a8a8b;
+}
+.other-top span:nth-child(3) {
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 18px;
+  color: #9fb1f1;
+}
+/* 三者险-下面部分（内容） */
+.other-bottom {
+  height: 160px;
+  background-color: #edf2fd;
+}
+.other-cotain {
+  height: 130px;
+  display: flex;
+  padding: 16px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #878889;
+}
+.other-cotain span:first-child {
   font-family: "SourceHanSansCN-Bold";
   font-size: 18px;
   font-weight: 600;
   color: #6b6f6c;
   margin-bottom: 20px;
-  }
-  .scenter-introduce span:nth-child(2){
+}
+/* ----------三者险补充说明---------- */
+.supplement-other {
+  width: 100%;
+  height: 322px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+/* 三者险补充说明-上面标题 */
+.supother-top {
+  display: flex;
+}
+.supother-top .fa {
+  color: #a4d38a;
+  font-size: 20px;
+  padding: 4px;
+}
+.supother-top span {
+  font-family: "SourceHanSansCN-Normal";
+  font-size: 18px;
+  color: #8a8a8b;
+}
+.supother-top span:nth-child(3) {
+  color: #ff8ba0;
+}
+/* 三者险补充说明-中间内容 */
+.supother-center {
+  height: 188px;
+  background-color: #edf2fd;
+  display: flex;
+  justify-content: space-around;
+}
+/* 中间内容-左边 */
+.scenter-introduce {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.scenter-introduce span:nth-child(1) {
+  font-family: "SourceHanSansCN-Bold";
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b6f6c;
+  margin-bottom: 20px;
+}
+.scenter-introduce span:nth-child(2) {
   font-family: "SourceHanSansCN-Regular";
   font-size: 18px;
   font-weight: 400;
   color: #878889;
-  }
-  /* 中间内容-右边 */
-  .scenter-but{
+}
+/* 中间内容-右边 */
+.scenter-but {
   width: 104px;
   display: flex;
   flex-direction: column;
@@ -561,90 +559,90 @@ margin-bottom: 20px;
   align-items: center;
   align-content: center;
 }
-.scenter-botton a{
-display: inline-block;
-width: 104px;
-height: 28px;
-background-color: #5c86df;
-border-radius: 10px;
-color: #fff;
-line-height: 28px;
-text-align: center;
-font-size: 16px;
+.scenter-botton a {
+  display: inline-block;
+  width: 104px;
+  height: 28px;
+  background-color: #5c86df;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  font-size: 16px;
 }
-.scenter-words{
-border-bottom: 1px dashed #fe7c84;
-color: #fe7c84;
-text-align: center;
-padding-top: 10px;
+.scenter-words {
+  border-bottom: 1px dashed #fe7c84;
+  color: #fe7c84;
+  text-align: center;
+  padding-top: 10px;
 }
 /* 三者险补充说明-下面补充 */
-.supother-footer{
-color: #6e706d;
-padding-left: 10px;
+.supother-footer {
+  color: #6e706d;
+  padding-left: 10px;
 }
 /* ----------套餐油费说明---------- */
-.dcontentl-oil{
-height: 250px;
-display: flex;
-justify-content: space-around;
-background-color: #fff;
-padding: 0 30px 30px;
+.dcontentl-oil {
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 0 30px 30px;
 }
 /* 油费说明-左边图标 */
-.dclo-left{
-width: 190px ;
-background-color: #fafafe;
-border-radius: 10px;
-display: flex;
-flex-direction: column;
-align-items: center;
-align-content: center;
+.dclo-left {
+  width: 190px;
+  background-color: #fafafe;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
 }
-.dclo-left .fa{
-font-size: 50px;
-color: #f9d876;
+.dclo-left .fa {
+  font-size: 50px;
+  color: #f9d876;
 }
-.dclo-left span{
-font-family: "SourceHanSansCN-Heavy";
-font-size: 20px;
-color: #767775;
-margin-top: 10px;
+.dclo-left span {
+  font-family: "SourceHanSansCN-Heavy";
+  font-size: 20px;
+  color: #767775;
+  margin-top: 10px;
 }
 /* 油费说明-右边内容 */
-.dclo-right{
-width: 607px;
-background-color: #fafafe;
-border-radius: 10px;
-display: flex;
-justify-content: space-around;
-flex-direction: column;
+.dclo-right {
+  width: 607px;
+  background-color: #fafafe;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
-.dclo-right span{
-font-family: "SourceHanSansCN-Bold";
-font-size: 18px;
-font-weight: 600;
-color: #6b6f6c;
-margin-bottom: 20px;
+.dclo-right span {
+  font-family: "SourceHanSansCN-Bold";
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b6f6c;
+  margin-bottom: 20px;
 }
-.dclo-bottom{
-background-color: #edf2fd;
-height: 140px;
-font-family: "SourceHanSansCN-Regular";
-font-size: 18px;
-font-weight: 400;
-color: #878889;
-padding: 30px 10px;
-line-height: 28px;
+.dclo-bottom {
+  background-color: #edf2fd;
+  height: 140px;
+  font-family: "SourceHanSansCN-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  color: #878889;
+  padding: 30px 10px;
+  line-height: 28px;
 }
-.dclo-bottom span{
-color: #fe7c84;
-font-family: "SourceHanSansCN-Regular";
-font-size: 18px;
-font-weight: 400;
+.dclo-bottom span {
+  color: #fe7c84;
+  font-family: "SourceHanSansCN-Regular";
+  font-size: 18px;
+  font-weight: 400;
 }
 /* 套餐右部分 */
-.dcontent-right{
+.dcontent-right {
   width: 273px;
   height: 664px;
   letter-spacing: 2px;
@@ -652,126 +650,126 @@ font-weight: 400;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  }
-  /* -----订单费用----- */
-  .order-pay{
+}
+/* -----订单费用----- */
+.order-pay {
   height: 320px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
 }
 /* 订单费用-上 */
-.opay-top{
-background-color: #a4afc1;
-width: 100%;
-height: 60px;
-font-size: 30px;
-padding: 0 20px;
-color: #ffffff;
-line-height: 60px;
-box-sizing: border-box;
+.opay-top {
+  background-color: #a4afc1;
+  width: 100%;
+  height: 60px;
+  font-size: 30px;
+  padding: 0 20px;
+  color: #ffffff;
+  line-height: 60px;
+  box-sizing: border-box;
 }
 /* 订单费用-中 */
-.opay-center{
-padding: 0 20px;
-box-sizing: border-box;
-height: 122px;
+.opay-center {
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 122px;
 }
-.opc-day{
-height: 66px;
-line-height: 66px;
-display: flex;
-justify-content: space-between;
+.opc-day {
+  height: 66px;
+  line-height: 66px;
+  display: flex;
+  justify-content: space-between;
 }
-.opc-day span{
-font-size: 16px;
-color: #5c5c5c;
-font-weight: 400;
-font-family: "SourceHanSansCN-Regular";
+.opc-day span {
+  font-size: 16px;
+  color: #5c5c5c;
+  font-weight: 400;
+  font-family: "SourceHanSansCN-Regular";
 }
-.opc-day span:nth-child(2){
-font-size: 22px;
-color: #5a5a5a;
-font-weight: 600;
-font-family: "SourceHanSansCN-Regular";
+.opc-day span:nth-child(2) {
+  font-size: 22px;
+  color: #5a5a5a;
+  font-weight: 600;
+  font-family: "SourceHanSansCN-Regular";
 }
-.opc-money{
-line-height: 66px;
-display: flex;
-justify-content: space-between;
+.opc-money {
+  line-height: 66px;
+  display: flex;
+  justify-content: space-between;
 }
-.opc-money span{
-font-size: 22px;
-color: #5a5a5a;
-font-weight: 500;
-font-family: "SourceHanSansCN-Regular";
+.opc-money span {
+  font-size: 22px;
+  color: #5a5a5a;
+  font-weight: 500;
+  font-family: "SourceHanSansCN-Regular";
 }
-.opc-money span:nth-child(2){
-font-size: 22px;
-color: #f98034;
-font-weight: 700;
-font-family: "SourceHanSansCN-Regular";
+.opc-money span:nth-child(2) {
+  font-size: 22px;
+  color: #f98034;
+  font-weight: 700;
+  font-family: "SourceHanSansCN-Regular";
 }
 /* 订单费用-下 */
-.opay-boottom{
-height: 118px;
-box-sizing: border-box;
-padding: 0 20px;
-display: flex;
-align-items: center;
+.opay-boottom {
+  height: 118px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
 }
-.oboottom-box{
-width: 238px;
-height: 98px;
-background-color: #f8f9fd;
-display: flex;
-justify-content: space-around;
-flex-direction: column;
+.oboottom-box {
+  width: 238px;
+  height: 98px;
+  background-color: #f8f9fd;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
-.oboottom-box .pay-line{
-display: flex;
-justify-content: space-between;
+.oboottom-box .pay-line {
+  display: flex;
+  justify-content: space-between;
 }
-.oboottom-box .pay-line span{
-font-size: 16px;
-color: #5c5c5c;
-font-weight: 400;
-font-family: "SourceHanSansCN-Regular";
+.oboottom-box .pay-line span {
+  font-size: 16px;
+  color: #5c5c5c;
+  font-weight: 400;
+  font-family: "SourceHanSansCN-Regular";
 }
-.oboottom-box .pay-line span:nth-child(2){
-font-size: 16px;
-color: #5a5a5a;
-font-weight: 600;
-font-family: "SourceHanSansCN-Regular";
+.oboottom-box .pay-line span:nth-child(2) {
+  font-size: 16px;
+  color: #5a5a5a;
+  font-weight: 600;
+  font-family: "SourceHanSansCN-Regular";
 }
-.pay-about{
-text-align: right;
+.pay-about {
+  text-align: right;
 }
 /* -----限时活动----- */
-.activity{
-height: 92px;
-background-color: #ffffff;
+.activity {
+  height: 92px;
+  background-color: #ffffff;
 }
-.activity-title{
-width: 90px;
-background-color: #ff7487;
-color: #fff;
-line-height: 24px;
-text-align: center;
-border-radius: 0 0 50% 0;
+.activity-title {
+  width: 90px;
+  background-color: #ff7487;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 0 0 50% 0;
 }
-.activity-words span:first-child{
-margin-top: 20px;
-display: inline-block;
-width: 20px;
-border-radius: 50%;
-background: #ff7487;
-color: white;
-line-height: 20px;
-text-align: center;
+.activity-words span:first-child {
+  margin-top: 20px;
+  display: inline-block;
+  width: 20px;
+  border-radius: 50%;
+  background: #ff7487;
+  color: white;
+  line-height: 20px;
+  text-align: center;
 }
 /* -----取车前免费取消----- */
-.free-cancel{
+.free-cancel {
   background-color: #fff;
   height: 206px;
   display: flex;
@@ -779,24 +777,23 @@ text-align: center;
   flex-direction: column;
   padding: 0 10px;
   box-sizing: border-box;
-  }
-  .freec-title{
+}
+.freec-title {
   display: flex;
   color: #878889;
   font-size: 20px;
-  }
-  .fct-icon i{
+}
+.fct-icon i {
   display: inline-block;
   width: 24px;
   height: 24px;
-  background-color: #40cf76 ;
+  background-color: #40cf76;
   color: white;
   border-radius: 50%;
   line-height: 24px;
-  margin-right:10px;
+  margin-right: 10px;
   text-align: center;
-  }
-  .freec-content1{
+}
+.freec-content1 {
   font-size: 18px;
-  }
-  
+}
