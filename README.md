@@ -44,7 +44,7 @@ merge：合并分支操作
 *** 
 ### 贡献者
 
-参与学习的人：  
+参与者：  
 [mason369](https://github.com/mason369)  
 [pLeepl](https://github.com/pLeepl)  
 [zenbing](https://github.com/zenbing)  
