@@ -327,19 +327,16 @@ height: 422px;
 text-align: center;
 overflow: hidden;
 }
-:root {
-  --translateY:-420px;
-}
 
 .swiper-slide1{
-  transform: translateY(var(--translateY));
+  transform: translateY(-420px);
   transition: all 1.5s ease-in-out;
 }
 .swiper-slide2{
-  transform: translateY(var(--translateY*2));
+  transform: translateY(-840px);
   transition: all 1.5s ease-in-out;
 }
 .swiper-slide3{
-  transform: translateY(var(--translateY*3));
+  transform: translateY(-1260px);
   transition: all 1.5s ease-in-out;
 }
