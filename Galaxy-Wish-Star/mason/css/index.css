@@ -383,20 +383,20 @@ li .icon-words {
 
 .swiper-slide1 {
     transform: translateY(-420px);
-    transition: all 1.5s ease-in-out;
+    transition: all 1s linear;
 }
 
 .swiper-slide2 {
     transform: translateY(-840px);
-    transition: all 1.5s ease-in-out;
+    transition: all 1s linear;
 }
 
 .swiper-slide3 {
-    transform: translateY(-1260px);
-    transition: all 1.5s ease-in-out;
+    transform: translateY(-1270px);
+    transition: all 1s linear;
 }
 
-.swiper-slide4 {
-    transform: translateY(-1260px);
-    transition: all 1.5s ease-in-out;
+.swiper-slide4  {
+    transform: translateY(-1690px);
+    transition: all 1s linear;
 }
