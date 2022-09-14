@@ -327,4 +327,19 @@ height: 422px;
 text-align: center;
 overflow: hidden;
 }
+:root {
+  --translateY:-420px;
+}
 
+.swiper-slide1{
+  transform: translateY(var(--translateY));
+  transition: all 1.5s ease-in-out;
+}
+.swiper-slide2{
+  transform: translateY(var(--translateY*2));
+  transition: all 1.5s ease-in-out;
+}
+.swiper-slide3{
+  transform: translateY(var(--translateY*3));
+  transition: all 1.5s ease-in-out;
+}
