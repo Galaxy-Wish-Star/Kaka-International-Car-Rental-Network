@@ -321,3 +321,10 @@ li .icon-words {
 
 
 /* 轮播图 */
+.swiper-wrapper{
+width: 1500px;
+height: 422px;
+text-align: center;
+overflow: hidden;
+}
+
