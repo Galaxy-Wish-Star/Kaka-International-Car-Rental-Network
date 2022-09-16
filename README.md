@@ -1,6 +1,10 @@
 # Kaka-International-Car-Rental-Network
 ## 卡卡国际租车网，项目专用仓库 
 
+![](https://img.shields.io/badge/%E7%8A%B6%E6%80%81-%E5%B0%B1%E7%BB%AA-critical)
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![](https://img.shields.io/crates/l/s)](https://img.shields.io/crates/l/s)
+
 ### 此仓库为web开发存储，当创建与修改仓库内容时应遵循以下几点：
 
 1. GIT库名一律采用项目名-类型的形式。
@@ -56,19 +60,19 @@ merge：合并分支操作
 
 *** 
 **当前进度**：
-- [ ] 工作任务一    项目初始化
+- [x] 工作任务一    项目初始化
 
-- [ ] 工作任务二    卡卡国际租车首页及抽离公共样式
+- [x] 工作任务二    卡卡国际租车首页及抽离公共样式
 
-- [ ] 工作任务三    卡卡国际租车页面
+- [x] 工作任务三    卡卡国际租车页面
 
-- [ ] 工作任务四    卡卡国际租车闪租页面
+- [x] 工作任务四    卡卡国际租车闪租页面
 
-- [ ] 工作任务五    卡卡国际租车服务项目
+- [x] 工作任务五    卡卡国际租车服务项目
 
-- [ ] 工作任务六   卡卡国际租车关于我们
+- [x] 工作任务六   卡卡国际租车关于我们
 
-- [ ] 工作任务七   卡卡国际租车商品详情
+- [x] 工作任务七   卡卡国际租车商品详情
 ### 特别感谢：  
 [IntelliJ WebStorm](https://zh.wikipedia.org/zh-hans/IntelliJ_IDEA) 是一款在各方面最大限度地提高开发人员生产力的 IDE，适用于前端平台语言。
 
@@ -76,4 +80,5 @@ merge：合并分支操作
 
 ## 使用许可
 
-[MIT](LICENSE) © Richard Littauer
+
+[Apache License 2.0](LICENSE) © Richard Littauer
