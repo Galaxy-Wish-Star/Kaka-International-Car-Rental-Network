@@ -19,19 +19,31 @@
 *** 
 ### 对代码的提交规定如下：
 ### 主题：  
-add：增加————新增了文件  
-del：删除  
- mod：修改————在原有内容中进行修改  
-update：更新————在原有内容中进行添加内容  
-fix：修复bug————包括解决问题、修改使其正常  
-docs：文档（documentation）  
-style： 格式（不影响代码运行的变动）  
-refactor：重构（即不是新增功能，也不是修改bug的代码变动）  
-test：增加测试  
-perf : 性能优化  
-revert : 撤销上一次的 commit  
-and:若既增加了内容又修改了内容还有删除了内容等多个操作，可使用“ and ”描述，如：add and del and dell  
-merge：合并分支操作  
+>add：增加————新增了文件  
+
+>del：删除  
+
+>mod：修改————在原有内容中进行修改  
+
+>update：更新————在原有内容中进行添加内容  
+
+>fix：修复bug————包括解决问题、修改使其正常  
+
+>docs：文档（documentation）  
+
+>style： 格式（不影响代码运行的变动）  
+
+>refactor：重构（即不是新增功能，也不是修改bug的代码变动）  
+
+>test：增加测试  
+
+>perf : 性能优化  
+
+>revert : 撤销上一次的 commit  
+
+>and:若既增加了内容又修改了内容还有删除了内容等多个操作，可使用“ and ”描述，如：add and del and dell  
+
+>merge：合并分支操作  
 ### 内容：  
 少修改，多提交。尽可能每改一个要点就提交一次，这样提交说明也能容易描述。也便于出问题时代码回退。“提交”的概念是具有独立的功能、修正等作用。 小可以小到只修改一行，大可以到改动很多文件， 但划分的标准不变，一个提交只解决一个问题的。  
 简明扼要，不要写的太详细，最好一行搞定，要一目了然，详细信息可以查看代码差异。  
@@ -48,17 +60,24 @@ merge：合并分支操作
 *** 
 ### 贡献者
 
-参与者：  
-[mason369](https://github.com/mason369)  
-[pLeepl](https://github.com/pLeepl)  
-[zenbing](https://github.com/zenbing)  
-[liusxs](https://github.com/liusxs)  
-[pujiurong](https://github.com/pujiurong)  
-[xiaokouhan](https://github.com/xiaokouhan)  
-[LingASDJ](https://github.com/LingASDJ)  
-[YUANYUAN04](https://github.com/YUANYUAN04)  
+感谢以下参与项目的人：
 
+<a href="https://github.com/liusxs"><img style="border-radius:50%;height:60px" src="https://avatars.githubusercontent.com/u/101164913?v=4" /></a>
+<a href="https://github.com/LingASDJ"><img style="border-radius:50%;height:60px" src="https://avatars.githubusercontent.com/u/70191651?v=4" /></a>
+<a href="https://github.com/mason369"><img style="border-radius:50%;height:60px" src="https://avatars.githubusercontent.com/u/93964390?s=96&v=4" /></a>
+<a href="https://github.com/mason369"><img style="border-radius:50%;height:60px" src="https://avatars.githubusercontent.com/u/101233711?v=4" /></a>
+<a href="https://github.com/zenbing"><img style="border-radius:50%;height:60px" src="https://avatars.githubusercontent.com/u/102287712?v=4" /></a>
+<a href="https://github.com/pujiurong"><img style="border-radius:50%;height:60px" src="https://avatars.githubusercontent.com/u/102287710?v=4" /></a>
+<a href="https://github.com/xiaokouhan"><img style="border-radius:50%;height:60px" src="https://avatars.githubusercontent.com/u/101168929?v=4" /></a>
+<a href="https://github.com/YUANYUAN04"><img style="border-radius:50%;height:60px" src="https://avatars.githubusercontent.com/u/101186294?v=4" /></a>
 *** 
+## 维护者
+
+[@mason369](https://github.com/mason369)  
+[@liusxs](https://github.com/liusxs)  
+[@LingASDJ](https://github.com/LingASDJ)
+
+
 **当前进度**：
 - [x] 工作任务一    项目初始化
 
