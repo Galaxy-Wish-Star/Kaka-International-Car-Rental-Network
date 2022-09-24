@@ -557,6 +557,18 @@
     align-items: center;
     align-content: center;
 }
+.h-title a {
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #f7f7f7;
+}
+.h-title li:nth-child(2) a {
+    color: #cf9257;
+    font-size: 20px;
+    text-shadow: 0 0 10px #cf9257, 0 0 20px #cf9257, 0 0 60px #cf9257;
+    border-top: 2px solid #cf9257;
+    border-bottom: 2px solid #cf9257;
+}
 .scenter-botton a{
     display: inline-block;
     width: 104px;
@@ -585,7 +597,7 @@
     display: flex;
     justify-content: space-around;
     background-color: #fff;
-    padding: 0 30px;
+    padding: 0 30px 30px;
 }
 /* 油费说明-左边图标 */
 .dclo-left{
