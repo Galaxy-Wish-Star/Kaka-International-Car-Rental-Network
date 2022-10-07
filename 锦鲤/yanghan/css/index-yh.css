@@ -1,0 +1,348 @@
+/* ----------------版心设置---------------- */
+
+.contain {
+    width: 1150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.hw {
+    height: 16px;
+    width: 16px;
+}
+
+
+/*---------------- head部分---------------- */
+
+.header {
+    height: 100px;
+    background-color: #202020;
+}
+
+.h-words {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+/* logo部分 */
+
+.h-logo {
+    width: 144px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.h-logo a {
+    display: inline-block;
+    width: 144px;
+    height: 56px;
+    background: url(../images/logo.png) no-repeat center;
+}
+
+
+/* 标题部分 */
+
+.h-title {
+    width: 555px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h-title a {
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #f7f7f7;
+}
+
+.h-title a:hover {
+    color: #cf9257;
+}
+
+
+/* 登录注册部分 */
+
+.h-login {
+    width: 199px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.login {
+    display: inline-block;
+    padding: 6px 10px;
+    width: 92px;
+    height: 24px;
+    background-color: #ca9b44;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+}
+
+.login-phon {
+    font-family: "FZZDHJW--GB1-0";
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.login-phon i {
+    color: #ca9b44;
+    padding: 0 4px;
+}
+
+
+/* banner部分 */
+
+.h-title li:nth-child(1) a {
+    color: #cf9257;
+    font-size: 20px;
+}
+
+.swiper-container {
+    /* 切换页的颜色 */
+    --swiper-theme-color: #072c4d;
+    /* 轮播图的颜色 */
+    --swiper-pagination-color: #838383;
+    height: 400px;
+    overflow: hidden;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination- bullet {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background-color: #494949a2;
+}
+
+.swiper-pagination-bullet-active {
+    background: #072c4d !important;
+    width: 1.2rem !important;
+}
+
+.swiper-pagination-bullet {
+    opacity: 1;
+}
+
+.swiper-wrapper {
+    width: 1150px;
+    margin: auto;
+}
+
+.swiper-slide img {
+    width: 1150px;
+}
+
+
+/*---------------- 租车服务部分---------------- */
+
+.rent-car {
+    width: 900px;
+    display: flex;
+    height: 96px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.differt-rent {
+    width: 280px;
+    height: 96px;
+    position: relative;
+    margin: 0 10px;
+}
+
+
+/* 下面背景盒子 */
+
+.rent-box {
+    position: absolute;
+    width: 280px;
+    height: 96px;
+    background: #202020;
+    transform: skewX(-20deg);
+    overflow: hidden;
+}
+
+
+/* 上面内容盒子 */
+
+.rent-words {
+    position: absolute;
+    width: 280px;
+    height: 96px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.difr-top {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.difr-top span {
+    display: inline-block;
+    width: 36px;
+    border-radius: 50%;
+    background-color: rgb(107, 153, 180);
+    line-height: 36px;
+    text-align: center;
+    transition: all 1s;
+}
+
+.difr-bottom {
+    margin: 0 auto;
+}
+
+.difr-top span:hover {
+    transform: rotatez(180deg);
+}
+
+
+/*---------------- 热门车型---------------- */
+
+.hot-car {
+    height: 686px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.hot-title span {
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 1s;
+    margin-right: 10px;
+}
+
+.hot-title span:first-child {
+    display: inline-block;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.hot-title span:first-child:hover {
+    transform: rotatez(180deg);
+}
+
+.hot-content {
+    height: 610px;
+}
+
+.hot-content ul {
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.hot-content ul li {
+    width: 220px;
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+
+/*---------------- 取消蓝色下划线---------------- */
+
+a {
+    text-decoration: none;
+}
+
+.hot-content li .img {
+    height: 142px;
+    width: 220px;
+    overflow: hidden;
+}
+
+.hot-content li img {
+    width: 220px;
+}
+
+li .icon-words {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hot-title {
+    font-family: "SourceHanSansCN-Bold";
+    font-size: 20px;
+    color: #646464;
+    font-weight: 500;
+}
+
+.difcar-btn {
+    display: inline-block;
+    width: 108px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.car-type {
+    color: #6b6b6b;
+    letter-spacing: 1px;
+    font-family: "SourceHanSansCN-Medium";
+    font-size: 18px;
+}
+
+.space {
+    color: #cb9e4c;
+}
+
+
+/* 盒子阴影大小 */
+
+.box {
+    box-shadow: -2px 7px 10px 0px rgba(98, 98, 98, 0.11);
+    transition: all 0.5s;
+}
+
+.box:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+.button {
+    background-color: #ffa42c;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #c57b19;
+}
